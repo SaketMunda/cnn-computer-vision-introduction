@@ -47,6 +47,8 @@ Specifically, we're going to go through the follow with TensorFlow:
   
 # Notebook/Practicals
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SaketMunda/cnn-computer-vision-introduction/blob/master/convolutional-neural-network-with-tensorflow.ipynb)
+
 # Exercises
 
 # Extra-Curriculam
