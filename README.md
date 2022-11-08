@@ -13,6 +13,20 @@ For example, you might want to:
 
 In this repo, we're going to follow the TensorFlow modelling workflow we've been following so far whilst learning about how to build and use CNNs.
 
+# (typical)* Architecture of a CNN
+
+
+| **Hyperparameter/Layer type** | **What does it do?** | **Typical Values** | 
+| --- | --- | --- |
+| Input image(s) | Target images you'd like to discover patterns in | Whatever you can take a photo(or video) of |
+| Input layer | Takes in target images and preprocess them for further layers | `input_shape = [batch_size, image_height, image_width, color_channels]` |
+| Convolution layer | Extracts/learns the most important features from target images | Multiple, can create with [tf.keras.layers.ConvXD](https://www.tensorflow.org/api_docs/python/tf/keras/layers/Conv2D) (X can be multiple values) |
+| Hidden activation | Adds non-linearity to learned features (non-straight lines) | Usually [ReLU](https://www.tensorflow.org/api_docs/python/tf/keras/activations/relu) |
+| Pooling layer | Reduces the dimensionality of learned image features | Average [tf.keras.layers.AvgPool2D](https://www.tensorflow.org/api_docs/python/tf/keras/layers/AveragePooling2D) or Max [tf.keras.layers.MaxPool2D](https://www.tensorflow.org/api_docs/python/tf/keras/layers/MaxPool2D) |
+| Fully Connected layer | Further refines learned features from convolution layers | [tf.keras.layers.Dense](https://www.tensorflow.org/api_docs/python/tf/keras/layers/Dense) |
+| Output Layer | Takes learned features and outputs them in shape of target labels | `output_shape = [number_of_classes]` (e.g. 3 for pizza, steak or sushi) |
+| Output Activation | Adds non-linearities to output layer | [tf.keras.activations.sigmoid](https://www.tensorflow.org/api_docs/python/tf/keras/activations/sigmoid) (binary classification) or [tf.keras.activations.softmax](https://www.tensorflow.org/api_docs/python/tf/keras/activations/softmax) |
+
 # What we're going to cover
 
 Specifically, we're going to go through the follow with TensorFlow:
