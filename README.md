@@ -27,6 +27,9 @@ In this repo, we're going to follow the TensorFlow modelling workflow we've been
 | Output Layer | Takes learned features and outputs them in shape of target labels | `output_shape = [number_of_classes]` (e.g. 3 for pizza, steak or sushi) |
 | Output Activation | Adds non-linearities to output layer | [tf.keras.activations.sigmoid](https://www.tensorflow.org/api_docs/python/tf/keras/activations/sigmoid) (binary classification) or [tf.keras.activations.softmax](https://www.tensorflow.org/api_docs/python/tf/keras/activations/softmax) |
 
+How they stack together
+![image](https://raw.githubusercontent.com/mrdbourke/tensorflow-deep-learning/main/images/03-simple-convnet.png)
+
 # What we're going to cover
 
 Specifically, we're going to go through the follow with TensorFlow:
