@@ -58,3 +58,4 @@ Specifically, we're going to go through the follow with TensorFlow:
 
 # Resources
 * [TensorFlow for Deep Learning by Daniel Bourke](https://dev.mrdbourke.com/tensorflow-deep-learning/03_convolutional_neural_networks_in_tensorflow/)
+* [CNN Explainer](https://poloclub.github.io/cnn-explainer/)
