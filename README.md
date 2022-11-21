@@ -54,7 +54,26 @@ Specifically, we're going to go through the follow with TensorFlow:
 
 # Exercises
 
+- [ ] Spend 20-minutes reading and interacting with the [CNN explainer](https://poloclub.github.io/cnn-explainer/) website.
+  - What are the key terms? e.g. explain convolution in your own words, pooling in your own words
+- [ ] Play around with the "understanding hyperparameters" section in the [CNN explainer](https://poloclub.github.io/cnn-explainer/) website for 10-minutes.
+  - What is the kernel size?
+  - What is the stride?
+  - How could you adjust each of these in TensorFlow code?
+- [ ] Take 10 photos of two different things and build your own CNN image classifier using the techniques we've built here.
+- [ ] Find an ideal learning rate for a simple convolutional neural network model on your the 10 class dataset.
+
 # Extra-Curriculam
+
+- [ ] **Watch**: [MIT's Introduction to Deep Computer Vision lecture](https://www.youtube.com/watch?v=iaSUYvmCekI&list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI&index=3). This will give you a great intuition behind convolutional neural networks.
+
+- [ ] **Watch**: Deep dive on [mini-batch gradient descent](https://youtu.be/-_4Zi8fCZO4) by deeplearning.ai. If you're still curious about why we use **batches** to train models, this technical overview covers many of the reasons why.
+
+- [ ] **Read**: [CS231n Convolutional Neural Networks for Visual Recognition](https://cs231n.github.io/convolutional-networks/) class notes. This will give a very deep understanding of what's going on behind the scenes of the convolutional neural network architectures we're writing.
+
+- [ ] **Read**: ["A guide to convolution arithmetic for deep learning"](https://arxiv.org/pdf/1603.07285.pdf). This paper goes through all of the mathematics running behind the scenes of our convolutional layers.
+
+- [ ] **Code practice**: [TensorFlow Data Augmentation Tutorial](https://www.tensorflow.org/tutorials/images/data_augmentation). For a more in-depth introduction on data augmentation with TensorFlow, spend an hour or two reading through this tutorial.
 
 # Resources
 * [TensorFlow for Deep Learning by Daniel Bourke](https://dev.mrdbourke.com/tensorflow-deep-learning/03_convolutional_neural_networks_in_tensorflow/)
