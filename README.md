@@ -54,9 +54,9 @@ Specifically, we're going to go through the follow with TensorFlow:
 
 # Exercises
 
-- [ ] Spend 20-minutes reading and interacting with the [CNN explainer](https://poloclub.github.io/cnn-explainer/) website.
+- [x] Spend 20-minutes reading and interacting with the [CNN explainer](https://poloclub.github.io/cnn-explainer/) website.
   - What are the key terms? e.g. explain convolution in your own words, pooling in your own words
-- [ ] Play around with the "understanding hyperparameters" section in the [CNN explainer](https://poloclub.github.io/cnn-explainer/) website for 10-minutes.
+- [x] Play around with the "understanding hyperparameters" section in the [CNN explainer](https://poloclub.github.io/cnn-explainer/) website for 10-minutes.
   - What is the kernel size?
   - What is the stride?
   - How could you adjust each of these in TensorFlow code?
