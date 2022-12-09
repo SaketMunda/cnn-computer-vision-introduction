@@ -60,7 +60,7 @@ Specifically, we're going to go through the follow with TensorFlow:
   - What is the kernel size?
   - What is the stride?
   - How could you adjust each of these in TensorFlow code?
-- [ ] Take 10 photos of two different things and build your own CNN image classifier using the techniques we've built here.
+- [x] Take 10 photos of two different things and build your own CNN image classifier using the techniques we've built here.
 - [ ] Find an ideal learning rate for a simple convolutional neural network model on your the 10 class dataset.
 
 # Extra-Curriculam
