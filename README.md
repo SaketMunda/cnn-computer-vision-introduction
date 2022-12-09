@@ -61,13 +61,13 @@ Specifically, we're going to go through the follow with TensorFlow:
   - What is the stride?
   - How could you adjust each of these in TensorFlow code?
 - [x] Take 10 photos of two different things and build your own CNN image classifier using the techniques we've built here.
-- [ ] Find an ideal learning rate for a simple convolutional neural network model on your the 10 class dataset.
+- [x] Find an ideal learning rate for a simple convolutional neural network model on your the 10 class dataset.
 
 # Extra-Curriculam
 
 - [x] **Watch**: [MIT's Introduction to Deep Computer Vision lecture](https://www.youtube.com/watch?v=uapdILWYTzE&list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI&index=3). This will give you a great intuition behind convolutional neural networks.
 
-- [ ] **Watch**: Deep dive on [mini-batch gradient descent](https://youtu.be/-_4Zi8fCZO4) by deeplearning.ai. If you're still curious about why we use **batches** to train models, this technical overview covers many of the reasons why.
+- [x] **Watch**: Deep dive on [mini-batch gradient descent](https://youtu.be/-_4Zi8fCZO4) by deeplearning.ai. If you're still curious about why we use **batches** to train models, this technical overview covers many of the reasons why.
 
 - [ ] **Read**: [CS231n Convolutional Neural Networks for Visual Recognition](https://cs231n.github.io/convolutional-networks/) class notes. This will give a very deep understanding of what's going on behind the scenes of the convolutional neural network architectures we're writing.
 
