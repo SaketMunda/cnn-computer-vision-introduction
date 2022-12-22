@@ -13,6 +13,8 @@ For example, you might want to:
 
 In this repo, we're going to follow the TensorFlow modelling workflow we've been following so far whilst learning about how to build and use CNNs.
 
+> **Note**: Convolutional Neural Network learn features and patterns by themselves, we don't need to tell them learn this or that feature.
+
 # (typical)* Architecture of a CNN
 
 
